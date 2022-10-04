@@ -9,7 +9,7 @@ const WhatsApp =() => {
 
   return (
     
-<div onClick={clickHandler} className='whatsapp_container' >
+<div  className='whatsapp_container' >
 
 </div>
       
