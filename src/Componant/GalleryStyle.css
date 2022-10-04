@@ -1,0 +1,135 @@
+.main {
+  /* border: solid 2px blue; */
+  max-width: 1140px;
+  margin: auto;
+}
+
+.ReactModalPortal .ReactModal__Content {
+  /* border: solid 5px blue; */
+  position: absolute;
+  inset: 10px;
+  
+  border: 10px solid black (204, 204, 204);
+  background: transparent !important;
+  background-color: rgba(19, 19, 19, 0.8) !important;
+  overflow: auto;
+  border-radius: 5px;
+  outline: none;
+  padding: 20px;
+  height: 75%;
+  width: 80%;
+  margin: auto;
+  z-index: 100 10;
+}
+
+.galleryimg-section {
+  width: 100%;
+  margin: auto;
+  padding: 1rem;
+  display: flex;
+  opacity: 0.8;
+}
+
+.modal_section {
+  display: flex;
+}
+
+.model_div {
+  background-color: black !important;
+  display: flex;
+  flex-direction: column;
+  
+  z-index: 99 !important;
+  text-align: center;
+  align-items: center;
+  position: relative;
+}
+.model_div .img_div{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 2rem;
+  
+}
+
+.close_div{
+ 
+  position: relative;
+  width: 100%;
+ 
+ cursor: pointer;
+  margin-top: 20px;
+  border-top: solid white 2px;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  align-items: center;
+  z-index: 100;
+  cursor: crosshair;
+  margin-top: 18%;
+  padding-top: 8px;
+  
+
+  
+  
+
+
+}
+
+
+
+
+.close_div:hover {
+  cursor: pointer;
+}
+
+
+
+
+@media (max-width: 1000px) {
+  .main {
+    /* border: solid 2px red; */
+    max-width: 1140px;
+    margin: auto;
+  }
+
+  .ReactModalPortal .ReactModal__Content {
+    /* border: solid 1px red; */
+    position: absolute;
+    inset: 10px;
+    border: 10px solid black (204, 204, 204);
+    background: transparent !important;
+    background-color: rgba(0, 0, 0, 0.85) !important; 
+
+
+    overflow: auto;
+    border-radius: 20px;
+    outline: none;
+    padding: 20px;
+    height: 85%;
+    margin-bottom: 0.1rem !important;
+
+    width: 95%;
+    margin: auto;
+    z-index: 100 10;
+  }
+  .galleryimg-section {
+    width: 100%;
+    margin: auto;
+    padding: 1rem;
+    display: flex;
+  }
+  .model_div {
+    background-color: white !important;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 0.5rem;
+    z-index: 99 !important;
+    text-align: center;
+    align-items: center;
+  }
+
+  .close_div {
+    cursor: crosshair;
+    color: white;
+  }
+}
