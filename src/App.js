@@ -9,7 +9,7 @@ import { Toast } from "reactstrap";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import ScrollToTop from "./Componant/ScrollToTop";
-import WhatsApp from "./Componant/WhatsApp";
+
 import Navbar from "./Componant/Navbar"
 import Footer from "./Componant/Footer"
 function App() {
@@ -19,7 +19,6 @@ function App() {
     
       <ScrollToTop />
       <ToastContainer />
-      <WhatsApp/>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/About" element={<About />} />
